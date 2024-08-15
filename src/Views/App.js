@@ -292,7 +292,7 @@ const App = () => {
             ))}
 
             <FormControlLabel onChange={() => { setOrdenar(!ordenar) }} control={<Checkbox />} label="Ordenar de menor a mayor" />
-            <button type="submit">Generar Folios</button>
+            <button className="boton" type="submit">Generar Folios</button>
           </div>
 
         </form>
@@ -306,6 +306,7 @@ const App = () => {
         <Colapsible folios={folios} />
         {folios.length > 0 &&
           <button
+            className="boton"
             style={{ marginTop: "25px" }}
             onClick={exportarExcel}
             type="submit"

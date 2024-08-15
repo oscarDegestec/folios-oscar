@@ -21,7 +21,7 @@ section{
   padding: 0 !important;
 }
 
-button{
+.boton{
   font-size: 15px;
   max-width: 200px;
   min-width: 200px;
@@ -35,6 +35,6 @@ button{
   cursor: pointer;
 }
 
-button:hover{
+.boton:hover{
   box-shadow: -6px -6px 12px #c1c1c1, 6px 6px 12px #FFF 
 }
