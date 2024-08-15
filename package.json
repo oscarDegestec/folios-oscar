@@ -2,6 +2,7 @@
   "name": "folios-oscar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oscarDegestec.github.io/folios-oscar/build",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
