@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section{
+  margin-bottom: 50px;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.css-15v22id-MuiAccordionDetails-root{
+  padding: 0 !important;
+}
+
+button{
+  font-size: 15px;
+  max-width: 200px;
+  min-width: 200px;
+  color: #333333;
+  padding: 0.7em 1.7em;
+  border-radius:15px;
+  background-color: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c1c1c1, -6px -6px 12px #FFF; 
+  cursor: pointer;
+}
+
+button:hover{
+  box-shadow: -6px -6px 12px #c1c1c1, 6px 6px 12px #FFF 
+}
