@@ -100,15 +100,19 @@ const TablaFolios = ({ rows }) => {
       <Table sx={{ minWidth: 500 }} aria-label="custom pagination table">
         <TableHead>
           <TableRow>
-            <p>Folios</p>
+            <TableCell>Numero</TableCell>
+            <TableCell>Folio</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {(rowsPerPage > 0
             ? rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
             : rows
-          ).map((row) => (
+          ).map((row, index) => (
             <TableRow key={row}>
+              <TableCell component="th" scope="row">
+                {index + 1 + page * rowsPerPage}
+              </TableCell>
               <TableCell component="th" scope="row">
                 {row}
               </TableCell>

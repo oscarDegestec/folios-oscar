@@ -17,8 +17,16 @@ section{
   gap: 20px;
 }
 
+.sombra{
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+  padding: 10px 25px;
+}
+
 .css-15v22id-MuiAccordionDetails-root{
   padding: 0 !important;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+  box-shadow: none !important;
 }
 
 .boton{

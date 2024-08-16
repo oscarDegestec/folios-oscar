@@ -7,7 +7,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
 
-const TablaDatos = ({ data, folios, denominaciones }) => {
+const TablaDatos = ({ data, denominaciones }) => {
   const { nombreSorteo, permisoSorteo, vigenciaSorteo, numeroEmision, folioInicial, folioFinal, cantidad } = data
 
   return (
@@ -30,8 +30,8 @@ const TablaDatos = ({ data, folios, denominaciones }) => {
             <TableCell>Al</TableCell>
           </TableRow>
           <TableRow>
-            <TableCell>{vigenciaSorteo.inicio}</TableCell>
-            <TableCell>{vigenciaSorteo.fin}</TableCell>
+            <TableCell>{vigenciaSorteo.inicio !== null && vigenciaSorteo.inicio.$d.toLocaleDateString()}</TableCell>
+            <TableCell>{vigenciaSorteo.fin !== null && vigenciaSorteo.fin.$d.toLocaleDateString()}</TableCell>
           </TableRow>
 
           <TableRow>
