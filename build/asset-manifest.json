@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/folios-oscar/build/static/css/main.31f9f4e2.css",
-    "main.js": "/folios-oscar/build/static/js/main.8ccd3aac.js",
+    "main.css": "/folios-oscar/build/static/css/main.8bddbba7.css",
+    "main.js": "/folios-oscar/build/static/js/main.84383abb.js",
     "static/js/453.531807ea.chunk.js": "/folios-oscar/build/static/js/453.531807ea.chunk.js",
     "index.html": "/folios-oscar/build/index.html",
-    "main.31f9f4e2.css.map": "/folios-oscar/build/static/css/main.31f9f4e2.css.map",
-    "main.8ccd3aac.js.map": "/folios-oscar/build/static/js/main.8ccd3aac.js.map",
+    "main.8bddbba7.css.map": "/folios-oscar/build/static/css/main.8bddbba7.css.map",
+    "main.84383abb.js.map": "/folios-oscar/build/static/js/main.84383abb.js.map",
     "453.531807ea.chunk.js.map": "/folios-oscar/build/static/js/453.531807ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31f9f4e2.css",
-    "static/js/main.8ccd3aac.js"
+    "static/css/main.8bddbba7.css",
+    "static/js/main.84383abb.js"
   ]
 }
